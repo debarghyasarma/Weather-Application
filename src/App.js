@@ -14,7 +14,6 @@ function App() {
         .get(url)
         .then((response) => {
           setData(response.data)
-          console.log(response.data)
         })
         .catch(() => {
           toast("City Not Found", {

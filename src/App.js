@@ -24,6 +24,7 @@ function App() {
       setLocation("")
     }
   }
+  //fetching of data
   const url = `https://api.openweathermap.org/data/2.5/weather?q=${location}&units=imperial&appid=cb9f7b90beede86239fefa4700ba599d`
   return (
     <div className="app">

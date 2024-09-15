@@ -64,7 +64,7 @@ function App() {
             </div>
             <div className="humidity">
               {data.main ? <p className="bold">{data.main.humidity}%</p> : null}
-              <p>Humidity is</p>
+              <p>Humidity</p>
             </div>
             <div className="wind">
               {data.wind ? (

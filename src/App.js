@@ -60,7 +60,7 @@ function App() {
                 </p>
               ) : null}
 
-              <p>Feels Like Temp</p>
+              <p>Feels Like</p>
             </div>
             <div className="humidity">
               {data.main ? <p className="bold">{data.main.humidity}%</p> : null}

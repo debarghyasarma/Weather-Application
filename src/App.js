@@ -33,7 +33,7 @@ function App() {
           type="text"
           value={location}
           onChange={(event) => setLocation(event.target.value)}
-          placeholder="Enter Location"
+          placeholder="Enter Locations"
           onKeyPress={searchLocation}
         />
       </div>
